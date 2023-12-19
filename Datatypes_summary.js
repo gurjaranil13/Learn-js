@@ -23,11 +23,34 @@ let myProfile = {
     State : "Rajasthan"
 }
 
-console.log(typeof states)
-console.log(typeof myProfile)
+//console.log(typeof states)
+// console.log(typeof myProfile)
 
 let myfun = function(){
     console.log("Hello world")
 }
 
-myfun()
+// myfun()
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Reference Non primitive)
+
+let name1 = "Anil"
+
+let nameChange = name1
+// console.log(nameChange);
+nameChange = "Kartik"
+// console.log(name1)
+// console.log(nameChange)
+
+let prof = {
+    email: "anil@google.com",
+    pass: 12345
+}
+
+let prof1 = prof
+prof1.email = "kartik@google.com"
+
+// console.log(prof.email)
+// console.log(prof1.email)
