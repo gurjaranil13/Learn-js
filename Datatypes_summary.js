@@ -8,9 +8,26 @@ let state = null
 let city;
 let sym = Symbol('123')
 let sym1 = Symbol('123')
-console.log(sym == sym1);
+//console.log(sym == sym1);
 
-console.table([str, number, isLoggedIn, state, city, sym, sym1])
+// console.table([str, number, isLoggedIn, state, city, sym, sym1])
 
 //Non-Primitive (Reference)
 // Array, Objects, Functions
+
+let states = ["Raj", "UP", "UK"];
+
+let myProfile = {
+    name: "Anil",
+    age: 30,
+    State : "Rajasthan"
+}
+
+console.log(typeof states)
+console.log(typeof myProfile)
+
+let myfun = function(){
+    console.log("Hello world")
+}
+
+myfun()
